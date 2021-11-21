@@ -1,0 +1,111 @@
+<!-- 
+    Hai What is Up Coders, Selamat datang kembali di chanel creative academy, di video kali ini kita akan membuat parallax effect menggunakan HTML, CSS, Javascript. kalo yang belum tau parallax effect tu seperti apa kurang lebih seperti ini ( Paralax ), tapi disini kita akan membuat untuk versi websitenya, seperti ini, (Parallax). 
+    Buat kalian yang ga sabar coding sabar dulu, kalian sedang ada di playlist coder practice, 
+
+    di playlist ini kita akan mengasah skill html, css, javascript kita dengan membuat components website yang interaktif, seperti membuat animation,  responsive navbar, Image carousell dan masih banyak lagi, jadi saya harap buat kalian yang tertarik silahkan subscribe dulu chanel ini supaya kalian ga ketinggalan kalo ada update terbaru, selain itu kalian juga sudah support chanel ini supaya terus memberikan tutorial gratis seputar web development.
+ -->
+
+<!-- 
+    Setidaknya untuk membuat parallax efect ini aku membutuhkan 4 Tahapan, 
+    lah ko banyak amat sih bang, karena disini aku bener bener buat paralax effect ini dari 0 banget dari mulai mempersiapkan resource gambar hingga implementasi coding 
+
+    lebih jelasnya apa saja tahapan itu 
+ -->
+<!-- 
+    1. Tahapan Pembuatan Website Parallax Effect 
+        a. Persiapan Gambar PSD 
+            - Pemilihan gambar yang mendukung yang bisa dijadikan parallax, misalnya pilih gambar yang seolah olah saling menutupi seperti ini. ini ini. 
+            sehingga nantinya kita bisa croping
+            - Crop
+            - Layering Memisahkan Objek supaya terlihat 3d/ Paralax
+            - Visualisasi 3D Layer 
+            - Membuat gambarnya saling bertumpukan
+            - jadi idenya  nanti kita akan buat gambar itu bergerak entah ke atas, bawah, samping, tapi dengan kecepatan yang berbeda.
+        b. UI Design 
+            - Membuat tampilan website kita. 
+            - Sekaligus belajar berkolaborasi UI Design dengan Front-end
+            - Pembuatan Konten, CTA, Pemilihan warna, dll. 
+        c. Persiapan Coding 
+            - Code editor & Web Browser
+            - Membuat file index, css, javascript
+        d. Let's Code  
+-->
+
+<!-- 1. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 2. -->
+    <link rel="stylesheet" href="style.css">
+    <!-- 3. -->
+    <title>Landing Parallax Effect</title>
+</head>
+
+<body>
+    <!-- 4.-->
+    <section id="landing">
+        <!-- 5. -->
+        <div class="nav">
+            <ul>
+                <li><a href=""> HOME </a></li>
+                <li><a href=""> ABOUT </a></li>
+                <li><a href=""> PORTOFOLIO </a></li>
+                <li><a href=""> CONTACT </a></li>
+            </ul>
+        </div>
+
+        <div class="hero">
+            <img src="img/Background Akhir.png" alt="" class="last-img">
+            <img src="img/Background Tengah.png" alt="" class="mid-img">
+            <img src="img/Bird.png" alt="" class="bird-img">
+            <img src="img/Focus Image.png" alt="" class="focus-img">
+            <img src="img/Leaf.png" alt="" class="leaf-img">
+        </div>
+
+        <a href="#about" class="btn">Let's Trip</a>
+        <h1>TRAVELING</h1>
+    </section>
+
+    <!-- 6. -->
+    <section id="about">
+        <div class="content">
+
+            <h1>ABOUT TRIP</h1>
+            <hr>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </section>
+
+
+    <!-- 7.  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
